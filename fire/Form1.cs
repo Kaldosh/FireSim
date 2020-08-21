@@ -70,6 +70,7 @@ namespace fire
 
         const int NumThreads = 4;
 
+
         const int WidPow = 8;
         const int HeiPow = 8;
         const int Wid = 1 << WidPow;
