@@ -68,7 +68,7 @@ namespace fire
         long[] RollingBurnTimes = new long[RollingAvgLen];
         long[] RollingDrawTimes = new long[RollingAvgLen];
 
-        const int NumThreads = 4;
+        const int NumThreads = 2;
 
 
         const int WidPow = 8;
