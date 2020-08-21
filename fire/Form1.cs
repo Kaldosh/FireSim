@@ -89,8 +89,8 @@ namespace fire
             Random rnd = new Random();
             while (KeepRunning)
             {
-                BurnZones(rnd);
-                //BurnFull(rnd);
+                //BurnZones(rnd);
+                BurnFull(rnd);
             }
         }
 
