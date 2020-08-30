@@ -25,6 +25,8 @@ namespace fire
             for (int i = 0; i < Wid; i++)
             {
                 buff[Siz + i] = 220;
+                buff[Siz - i] = 220;
+
             }
 
 
@@ -164,6 +166,9 @@ namespace fire
 
         private void picMain_Paint(object sender, PaintEventArgs e)
         {
+            //really this should all be unsafe, with lockbits to get the image on screen; but testing various other ways
+
+
             //e.Graphics.CompositingQuality = System.Drawing.Drawing2D.CompositingQuality.HighSpeed;
             //e.Graphics.CompositingMode = System.Drawing.Drawing2D.CompositingMode.SourceCopy;
 
